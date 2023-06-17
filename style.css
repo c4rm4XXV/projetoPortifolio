@@ -1,0 +1,189 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.conteiner{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    
+    margin: 0px;
+}
+
+#header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline ;
+    color: #070f18;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#menu{
+    text-align: right;
+    margin-top: 80px;
+}
+
+#menu ul{
+    list-style: nome;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+    font-family:  'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #070f18;
+}
+
+a{
+    color: #070f18;
+    text-decoration: none;
+}
+
+#ButtonCta{
+    background-color: #1f7cff;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 25px;
+}
+
+p.gray{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+
+}
+
+#headerCta h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+}
+
+#headerImg{
+    margin-left: 42px;
+}
+
+#headerImg img{
+    width: 100%;
+}
+
+.headerLogo {
+    text-align: center;
+}
+
+#headerClientText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #070F18;
+}
+#headerClient{
+    margin-top: 49px;   
+}
+
+h2.red{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F75C4E;
+}
+
+h1.black{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    margin: 0px;   
+}
+
+.textCenter{
+    text-align: center;
+}
+
+#services .textCenter h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070F18;
+}
+
+#contactImg img{
+    width: 100%;
+}
+
+#contactFrom{
+    margin-left: 75px;
+}
+
+#contact{
+    margin-top: 100px;
+}
+
+#contactFrom input{
+    background: #F5F6FB;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575455;
+    border: 0px;
+    width: 75%;
+    padding: 15px 30px 15px 30px;
+}
+
+#contactFrom button{
+    background: #1F7CFF;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF; 
+    border: 0px;   
+    padding: 15px 30px 15px 30px;
+}
+
+#portifolioTitle{
+    margin-top: 152px;
+}
+
+.portifolioImg img{
+    width: 100%;
+}
+
+.portifolioImg{
+    padding: 22px;
+}
